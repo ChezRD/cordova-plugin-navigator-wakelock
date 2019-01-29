@@ -1,4 +1,4 @@
-package com.chezlab.wakelock;
+package com.eduterm.wakelock;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -19,7 +19,7 @@ import android.util.Log;
 
 
 public class wakelock extends CordovaPlugin {
-    private static final String TAG = "NAVIGATOR_WAKELOCK";
+    private static final String TAG = "REMEDU_WAKELOCK";
     private WakeLock mWakeLock;
     private PowerManager powerManager;
 

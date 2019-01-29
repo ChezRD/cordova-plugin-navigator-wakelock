@@ -1,6 +1,6 @@
 {
     "name": "cordova-plugin-navigator-wakelock",
-    "version": "1.4.0",
+    "version": "1.4.3",
     "description": "Prevent the screen of the mobile device from falling asleep.",
     "cordova": {
         "id": "cordova-plugin-navigator-wakelock",
