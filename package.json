@@ -1,0 +1,31 @@
+{
+    "name": "cordova-plugin-navigator-wakelock",
+    "version": "1.2.0",
+    "description": "Prevent the screen of the mobile device from falling asleep.",
+    "cordova": {
+        "id": "cordova-plugin-navigator-wakelock",
+        "platforms": [
+            "android"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChezRD/cordova-plugin-navigator-wakelock.git"
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "author": "Evgeny Rumiantsev <chezrd@gmail.com> (https://github.com/ChezRD)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ChezRD/cordova-plugin-navigator-wakelock/issues"
+    },
+    "homepage": "https://github.com/ChezRD/cordova-plugin-navigator-wakelock#readme"
+}
