@@ -18,7 +18,7 @@ import android.view.WindowManager.LayoutParams;
 import android.util.Log;
 
 
-public class NavigatorWakelock extends CordovaPlugin {
+public class wakelock extends CordovaPlugin {
     private static final String TAG = "NAVIGATOR_WAKELOCK";
     private WakeLock mWakeLock;
     private PowerManager powerManager;
