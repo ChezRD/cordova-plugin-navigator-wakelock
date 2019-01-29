@@ -1,7 +1,7 @@
 var exec = require('cordova/exec');
-var PLUGIN_NAME = 'NavigatorWakelock';
+var PLUGIN_NAME = 'wakelock';
 
-var NavigatorWakelock = {
+var wakelock = {
     aquire: function(callback) {
         callback = callback || (function() {});
         exec(function(){callback();}, callback, PLUGIN_NAME, 'aquire', []);
@@ -16,4 +16,4 @@ var NavigatorWakelock = {
     }
 };
 
-module.exports = NavigatorWakelock;
+module.exports = wakelock;
